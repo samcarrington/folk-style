@@ -25,7 +25,7 @@ export default defineEventHandler(async (event) => {
 
 function getStaticEndpoints(): string[] {
   const __dirname = dirname(fileURLToPath(import.meta.url));
-  const files = getFiles(`${__dirname}/../../pages`);
+  const files = getFiles(`${__dirname}/../../app/pages`);
   return files
     .filter((file) => !file.includes("slug")) // exclude dynamic content
     .map((file) => file.split("pages")[1])
