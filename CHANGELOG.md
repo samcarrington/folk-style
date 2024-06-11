@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. This
 project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.0.0](https://github.com/samcarrington/code-style/tree/v5.0.0) - Unreleased
+
+### Changed
+
+- Update Nuxt to v3.12.1
+- New Nuxt v4 compatible folder structure
+- Updated dependencies
+
+### Added
+
+- Compatibility flag for Nuxt v4
+
 ## [4.4.3](https://github.com/samcarrington/code-style/tree/v4.4.3) - Unreleased
 
 ### Changed

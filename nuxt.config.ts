@@ -1,8 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxtjs/color-mode", "@nuxthq/studio"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/content",
+    "@nuxtjs/color-mode",
+    "@nuxthq/studio",
+  ],
   typescript: {
     shim: false,
+  },
+  future: {
+    compatibilityVersion: 4,
   },
   app: {
     pageTransition: { name: "page", mode: "out-in" },
