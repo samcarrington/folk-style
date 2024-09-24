@@ -92,7 +92,7 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
-- Small addition to the react section in JavaScript guidance
+- Small addition to the React section in JavaScript guidance
 - Patch version updates to `@divriots/jampack`
 - Minor version update to `@nuxt/content`, `nuxt`, `eslint`, `prettier` & `@nuxtjs/tailwindcss`
 - Rebuilt using a sidebase template to repair the build after upgrade
@@ -227,10 +227,10 @@ git s
 
 ### Added
 
-- Site footer with github link and version number
+- Site footer with GitHub link and version number
 - PUG language parsing for templates
 - Site Footer template (in PUG syntax)
-- Github SVG icon
+- GitHub SVG icon
 - Copyright message
 
 ## [4.1.1](https://github.com/samcarrington/code-style/tree/v4.1.1) - 2023-01-06
@@ -303,7 +303,7 @@ git s
 ### Changed
 
 - Removed out-dated link to Laravel Best Practices site (now squatted) and
-  replaced with a Github link
+  replaced with a GitHub link
 
 ## [3.2.0](https://github.com/AnalogFolk/folk-style/tree/v3.2.0) - 2021-08-13
 
@@ -360,7 +360,7 @@ git s
 
 - Modified responsive footer
 - Consistent line-height
-- Screen reader text on Github icon link
+- Screen reader text on GitHub icon link
 
 ## [3.1.1](https://github.com/AnalogFolk/folk-style/tree/v3.1.1) - 2021-06-29
 
@@ -394,7 +394,7 @@ git s
 
 ### Changed
 
-- References to Bitbucket in chagelog into github tag links
+- References to Bitbucket in chagelog into GitHub tag links
 
 ### Fixed
 
