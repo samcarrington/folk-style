@@ -30,9 +30,9 @@ function getStaticEndpoints(): string[] {
     .filter((file) => !file.includes("slug")) // exclude dynamic content
     .map((file) => file.split("pages")[1])
     .map((file) => {
-      return file.endsWith("index.vue")
+      return file?.endsWith("index.vue")
         ? file.split("/index.vue")[0]
-        : file.split(".vue")[0];
+        : file?.split(".vue")[0];
     });
 }
 
